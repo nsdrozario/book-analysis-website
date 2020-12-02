@@ -1,51 +1,32 @@
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-/* Element reset */
-* {
-    display: block;
-    font-family: 'Roboto', sans-serif;
-}
-
-title, meta, script, audio, video, link {
-    display: none;
-}
-
-
-/* Media queries */
-
-/* ID Specific Styles */
-
-#wrapper-all {
-    display: flex;
-    width: 100%;
-    height: 100%;    
-}
-
-/* Custom Classes */
-
-.progress-bar-container {
-    top: 0;
-    padding-top: 0;
-    padding-bottom: 0;
-    margin-top: 0;
-    position: fixed;
-    background-color:gray;
-    width: 10px;
-    height: 100vh;
-}
-
-.progress-bar-fill {
-    padding-top: 0;
-    padding-bottom: 0;
-    background-color: #d10046;
-    width: 10px;
-    height: 0vh;
-}
-
 
 /* Theme */
 body {
     background-color: #1f1f1f;
     color: #e0e0e0;
 }
+
+.parallax-area {
+    background-attachment: fixed;
+    background-image: url("img/Opasna_eta_storona.jpg");
+    background-size: cover;
+}
+
+#bg-image-intro {
+    padding-top: 5%;
+}
+
+
+@media screen and (max-width: 767px) {
+    .parallax-area {
+        max-width: 768px;
+    }
+
+    #bg-image-intro {
+        padding-top: 10%;
+    }
+
+}
+
 
