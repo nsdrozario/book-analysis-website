@@ -7,20 +7,26 @@ body {
     color: #e0e0e0;
 }
 
+.section {
+    padding: 2%;
+}
+
+.mid-column {
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+
 .parallax-bg1 {
     background-attachment: fixed;
     background-image: url("img/Opasna_eta_storona.jpg");
     background-size: cover;
     height: 100%;
-}
-
-#parallax-1 {
     padding: 10%;
 }
 
 .parallax-2 {
     background-color: #2f2f2f;
-    padding: 10%;
     color: whitesmoke;
 }
 
