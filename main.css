@@ -51,3 +51,17 @@ body {
 pre{
     color:white;
 }
+
+.btn-custom {
+    background-color: #d63a49;
+    color: whitesmoke;
+}
+
+.btn-custom:hover {
+    background-color: #a82d39;
+    color: whitesmoke;
+}
+
+.header-text {
+    color: #d63a49;
+}
