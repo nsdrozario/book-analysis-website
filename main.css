@@ -5,6 +5,7 @@
 body {
     background-color: #1f1f1f;
     color: #e0e0e0;
+    size: 100vh;
 }
 
 .section {
@@ -19,6 +20,7 @@ body {
 
 .parallax-bg1 {
     background-attachment: fixed;
+    background-position: center;
     background-image: url("img/Opasna_eta_storona.jpg");
     background-size: cover;
     height: 100%;
