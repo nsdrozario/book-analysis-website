@@ -5,7 +5,6 @@
 body {
     background-color: #1f1f1f;
     color: #e0e0e0;
-    size: 100vh;
 }
 
 .section {
@@ -17,13 +16,11 @@ body {
     border-right: 1px solid white;
 }
 
-
 .parallax-bg1 {
     background-attachment: fixed;
     background-position: center;
     background-image: url("img/Opasna_eta_storona.jpg");
     background-size: cover;
-    height: 100%;
     padding: 10%;
 }
 
@@ -31,8 +28,6 @@ body {
     background-color: #2f2f2f;
     color: whitesmoke;
 }
-
-
 
 #bg-image-intro {
     color: #1c1c1c;
@@ -48,7 +43,6 @@ body {
     }
 
 }
-
 
 pre{
     color:white;
