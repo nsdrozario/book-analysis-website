@@ -43,7 +43,28 @@ body {
     #bg-image-intro {
         padding-top: 10%;
     }
+}
 
+.carousel {
+    height: 45vh;
+    margin-bottom: 0.1%;
+}
+
+iframe {
+    width: 80vh;
+    height: 45vh;
+}
+
+img {
+
+}
+
+
+img::before{ 
+    content: '';
+    filter: blur(90%);
+
+    offset: 5px;
 }
 
 pre{
