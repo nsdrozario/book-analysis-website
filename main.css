@@ -81,6 +81,47 @@ pre{
     color: whitesmoke;
 }
 
+/*
 .header-text {
     color: #d63a49;
+}
+
+*/
+
+.red-text {
+    color: #d63a49;
+}
+
+h1, h2{
+    color: #d63a49;
+}
+
+/* www.gradient-animator.com */
+
+.active-text-highlight {
+    background: linear-gradient(217deg, #c00000, #d85300);
+    background-size: 800% 800%;
+    background-clip: text;
+    -webkit-background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: SelectedText 4s ease infinite;
+    -moz-animation: SelectedText 4s ease infinite;
+    animation: SelectedText 4s ease infinite;
+}
+
+@-webkit-keyframes SelectedText {
+    0%{background-position:91% 0%}
+    50%{background-position:10% 100%}
+    100%{background-position:91% 0%}
+}
+@-moz-keyframes SelectedText {
+    0%{background-position:91% 0%}
+    50%{background-position:10% 100%}
+    100%{background-position:91% 0%}
+}
+@keyframes SelectedText {
+    0%{background-position:91% 0%}
+    50%{background-position:10% 100%}
+    100%{background-position:91% 0%}
 }
