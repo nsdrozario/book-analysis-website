@@ -19,7 +19,7 @@ body {
 
 .parallax-bg1 {
     background-attachment: fixed;
-    background-position: center;
+    background-position: center center;
     background-image: url("img/Opasna_eta_storona.jpg");
     background-size: cover;
     padding-top: 20vh;
@@ -35,6 +35,12 @@ body {
     color: #1c1c1c;
 }
 
+.carousel .jumbotron {
+    height: 40vh;
+}
+
+
+
 @media screen and (max-width: 767px) {
     .parallax-area {
         max-width: 768px;
@@ -43,28 +49,21 @@ body {
     #bg-image-intro {
         padding-top: 10%;
     }
+
+    .carousel .jumbotron {
+        height: 100vh;
+    }
 }
 
-.carousel {
-    height: 45vh;
-    margin-bottom: 0.1%;
+.carousel-inner .item {
+    height: 500px;
+    background-size: cover;
+    background-position: center center;
 }
 
 iframe {
     width: 80vh;
     height: 45vh;
-}
-
-img {
-
-}
-
-
-img::before{ 
-    content: '';
-    filter: blur(90%);
-
-    offset: 5px;
 }
 
 pre{
@@ -124,4 +123,31 @@ h1, h2{
     0%{background-position:91% 0%}
     50%{background-position:10% 100%}
     100%{background-position:91% 0%}
+}
+
+/* embedresponsively.com */
+
+.embed-container { 
+    position: relative; 
+    overflow: hidden; 
+    max-width: 100%; 
+} 
+
+
+@media screen and (max-width: 767px) {
+
+    .embed-container {
+        height: 0;
+        padding-bottom: 56.25%;
+    }
+
+    .embed-container iframe, .embed-container object, .embed-container embed { 
+        position: absolute; 
+        top: 0; 
+        left: 0; 
+        width: 100%; 
+        height: 100%; 
+    }
+    
+
 }
