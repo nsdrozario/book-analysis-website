@@ -97,13 +97,33 @@ h1, h2{
 
 /* www.gradient-animator.com */
 
+.navbar {
+    padding: 0;
+}
+
+.nav-item {
+    padding: 10px;
+}
+
+.navbar-brand {
+    padding-left: 10px;
+}
+
 .active-text-highlight {
     background: linear-gradient(217deg, #c00000, #d85300);
     background-size: 800% 800%;
+    
+    background-clip: border-box;
+
+    /*
     background-clip: text;
     -webkit-background-clip: text;
 
     -webkit-text-fill-color: transparent;
+    */
+
+    color: white;
+
     -webkit-animation: SelectedText 4s ease infinite;
     -moz-animation: SelectedText 4s ease infinite;
     animation: SelectedText 4s ease infinite;
@@ -133,9 +153,7 @@ h1, h2{
     max-width: 100%; 
 } 
 
-
 @media screen and (max-width: 767px) {
-
     .embed-container {
         height: 0;
         padding-bottom: 56.25%;
@@ -148,6 +166,4 @@ h1, h2{
         width: 100%; 
         height: 100%; 
     }
-    
-
 }
