@@ -101,8 +101,12 @@ h1, h2{
     padding: 0;
 }
 
-.navbar-brand, .navbar-nav {
+.nav-item {
     padding: 10px;
+}
+
+.navbar-brand {
+    padding-left: 10px;
 }
 
 .active-text-highlight {
