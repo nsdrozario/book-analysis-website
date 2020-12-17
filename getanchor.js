@@ -3,7 +3,7 @@ let selected = 0;
 $(window).on('scroll', function() {
     let i;
     for (i = anchors.length-1; i >= 0; i--) {
-        if ($(window).scrollTop() > $("#"+anchors[i]).offset().top) {
+        if ($(window).scrollTop() > $("#"+anchors[i]).offset().top-($("#main-nav").height()*2)) {
             break;
         }
     }
