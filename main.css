@@ -7,10 +7,7 @@ body {
     color: #e0e0e0;
 }
 
-.mid-column {
-    border-left: 1px solid white;
-    border-right: 1px solid white;
-}
+
 
 .section {
     padding-top: 2%;
@@ -175,3 +172,5 @@ h1, h2{
         height: 100%; 
     }
 }
+
+
