@@ -32,12 +32,19 @@ body {
 }
 
 #bg-image-intro {
+    
     color: #1c1c1c;
+
 }
 
 .carousel .jumbotron {
     height: 40vh;
+    color: #1f1f1f;
+    background-image: url("paper_texture.png");
+    background-repeat: repeat;
+    box-shadow: 0 8px 32px 0 rgba( 0,0,0, 0.37 );
 }
+
 
 
 
