@@ -1,4 +1,4 @@
-let anchors = ["section2", "writing", "audience", "author"];
+let anchors = ["section2", "writing", "message", "audience", "author", "context", "listen"];
 let selected = 0;
 $(window).on('scroll', function() {
     let i;

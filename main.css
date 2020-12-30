@@ -7,10 +7,7 @@ body {
     color: #e0e0e0;
 }
 
-.mid-column {
-    border-left: 1px solid white;
-    border-right: 1px solid white;
-}
+
 
 .section {
     padding-top: 2%;
@@ -32,12 +29,19 @@ body {
 }
 
 #bg-image-intro {
+    
     color: #1c1c1c;
+
 }
 
 .carousel .jumbotron {
     height: 40vh;
+    color: #1f1f1f;
+    background-image: url("paper_texture.png");
+    background-repeat: repeat;
+    box-shadow: 0 8px 32px 0 rgba( 0,0,0, 0.37 );
 }
+
 
 
 
@@ -109,6 +113,7 @@ h1, h2{
     padding-left: 10px;
 }
 
+
 .active-text-highlight {
     background: linear-gradient(217deg, #c00000, #d85300);
     background-size: 800% 800%;
@@ -167,3 +172,5 @@ h1, h2{
         height: 100%; 
     }
 }
+
+
