@@ -23,5 +23,5 @@ Under CC-BY-SA 3.0 License (https://creativecommons.org/licenses/by-sa/3.0/)
 */
 function scrollToAnchor(aid){
     var aTag = $("#" + aid);
-    $('html,body').animate({scrollTop: aTag.offset().top - ($("#main-nav").height() * 2)},'slow');
+    $('html,body').animate({scrollTop: aTag.offset().top},'slow');
 }

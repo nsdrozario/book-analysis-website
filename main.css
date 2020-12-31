@@ -5,6 +5,7 @@
 body {
     background-color: #1f1f1f;
     color: #e0e0e0;
+    position: relative;
 }
 
 .column-3 {
@@ -103,20 +104,13 @@ h1, h2{
 
 /* www.gradient-animator.com */
 
-.navbar {
-    padding: 0;
-}
 
-.nav-item {
-    padding: 10px;
-}
-
-.navbar-brand {
-    padding-left: 10px;
+nav {
+    
 }
 
 
-.active-text-highlight {
+.active {
     background: linear-gradient(217deg, #c00000, #d85300);
     background-size: 800% 800%;
     
