@@ -105,10 +105,16 @@ h1, h2{
 /* www.gradient-animator.com */
 
 
-nav {
-    
+.card {
+    color: whitesmoke;
+    background-color: #d63a49;
+    box-shadow: 0 8px 32px 0 rgba( 0,0,0, 0.37 );
 }
 
+.card-body {
+    color: #1f1f1f;
+    background-color: whitesmoke;
+}
 
 .active {
     background: linear-gradient(217deg, #c00000, #d85300);
