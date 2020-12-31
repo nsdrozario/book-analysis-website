@@ -18,7 +18,7 @@
     -->
 </head>
 <html>
-    <body>
+    <body data-spy="scroll" data-target="#mainNav">
         <!-- Navbar -->
         <!-- Desktop -->
         <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark" id="main-nav">
@@ -28,7 +28,7 @@
             </button>
             <div id="mainNav" class="collapse navbar-collapse">
                 <ul class="navbar-nav">
-                    <li class="nav-item active-text-highlight" >
+                    <li class="nav-item">
                         <a href="#section2" id="section2-link" class="nav-link" onclick="scrollToAnchor('section2')">Overview</a>
                     </li>
                     <li class="nav-item">
@@ -62,7 +62,7 @@
                         <p>
                             M.T Anderson
                         </p>
-                        <p>Discover how, of all things, Dmitri Shostakovich's music saved his hometown time and time again, saving it from the two biggest dictators in modern history.</p>
+                        <p>Discover how, of all things, Dmitri Shostakovich's music saved his hometown from the two biggest dictators in modern history.</p>
                         <a class="btn btn-default btn-custom" href="#section2" onclick="scrollToAnchor('section2')" style="margin: 5px;">Tell me more!</a>
                         <a class="btn btn-default btn-custom" href="#listen" onclick="scrollToAnchor('listen')" style="margin: 5px;">Let's take a listen!</a>
                     </div>
@@ -72,7 +72,7 @@
         </div>
         <div class="container-fluid section">
             <div class="row" id="section2">
-                <div class="col-lg-4">
+                <div class="col-md-4 column-3">
                     <h2 class="header-text text-center">Not just any biography</h2>
                     <p class=" left-justified">
                         <span style="font-style: italic;">Symphony for the City of the Dead</span> 
@@ -80,7 +80,7 @@
                         during World War 2, the rise of the USSR, and the Siege of Leningrad.
                     </p>
                 </div>
-                <div class="col-lg-4 mid-column">
+                <div class="col-md-4 mid-column column-3">
                     <h2 class="header-text text-center">Something for everyone</h2>
                     <p class="left-justified">
                         Whether you're a classical music connoisseur, a history buff, or just someone who is fascinated by the seemingly
@@ -89,7 +89,7 @@
                     </p>
                     <div class="container text-center"><a class="btn btn-custom" href="#audience" onclick="scrollToAnchor('audience')">Learn more</a></div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-md-4 column-3">
                     <h2 class="header-text text-center">A new look</h2>
                     <p class="left-justified">
                         While there is a breadth of literature on World War II and the USSR, chances are, you wouldn't expect
@@ -194,7 +194,7 @@
                             </div>
                             <div class="carousel-item container">
                                 <div class="row jumbotron" >
-                                    <h3> Clever diction </h3>
+                                    <h3>Clever diction</h3>
                                     <p>
                                         <blockquote>
                                             “The story should end there, but of course it does not. History does not allow for perfect cadences” 
@@ -312,14 +312,52 @@
                         <p>
                             However, we already know that Anderson has a deeper purpose -- and a <i>deeper message</i> than what meets the eye.
                         </p>
-                        <ul class="list">
-                            <li><b>Idea 1: </b></li>
-                            <ul>
-                                <li>
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>Human emotion is the most impactful of all motivations.</h3>
+                            </div>
+                            <div class="card-body">
+                                <p>
+                                    Despite all of the suffering people endured during the 
+                                    Siege of Leningrad, things like music, which are sometimes regarded as frivolous -- actually helped <b>develop the determination</b> to overcome
+                                    the famine and the attacks by the Nazis.
+                                    <blockquote>
+                                        "...the first to die among those in normally good condition were people of weak character, those who gave in morally, who lost  the will to work and thought too much about their stomachs" (296).
+                                    </blockquote>
+                                    <blockquote>
+                                        "But for the people of Leningrad, [Shostakovich's 7th Symphony] meant something else entirely: it gave them an identity" (340).
+                                    </blockquote>
+                                </p>
+                            </div>
+                        </div>
+                        <br/>
 
-                                </li>
-                            </ul>
-                        </ul>
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>
+                                    The smallest of actions can make all the difference.
+                                </h3>
+                            </div>
+                            <div class="card-body">
+                                <p>Yet another interpretation of the same ideas Anderson presents.</p>
+                                <p>You'll discover that 
+                                    Shostakovich's 7th was key in mustering popular support in America for foreign aid to the USSR, 
+                                    which resulted in the tide turning against the Nazis on the battlegrounds.
+                                    <blockquote>
+                                        "It would remind the West that Russians were not Bolshevik barbarians. They were writing symphonies even in the midst of siege" (302).
+                                    </blockquote>
+                                </p> 
+                                <p>
+                                    A key motif in Anderson's novel is how common people work together in small ways to face the overwhelming challenges of life during the Siege of Leningrad.
+                                    Whether it was civilian volunteering for production or infrastructure, or performing and writing music, all of it was essential to
+                                    stop the starvation and the senseless murder. 
+                                </p>
+                                <blockquote>
+
+                                </blockquote>
+                                <p>Given how Anderson aims to encourage positive change and discourage injustice, especially from one of his target audiences, young adults, 
+                                    it makes sense to suggest this message, because if Anderson appeals to an audience who isn't jaded over injustice yet, he must encourage them to believe in their power to make a difference. </p>
+                            </div>
                     </div>
                 </div>
             </div>
@@ -427,6 +465,5 @@
     <!-- Other scripts 
     <script src="get_img_credits.js"></script> -->
     <script src="scroll.js"></script>  
-    <script src="getanchor.js"></script>  
     </body>
 </html>
