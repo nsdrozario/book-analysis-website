@@ -13,8 +13,8 @@ body {
 }
 
 .section {
-    padding-top: 2%;
-    padding-bottom: 2%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .parallax-bg1 {
@@ -37,16 +37,20 @@ body {
 
 }
 
+.carousel {
+    padding-bottom: 20px;
+}
+
 .carousel .jumbotron {
-    height: 40vh;
     color: #1f1f1f;
     background-image: url("paper_texture.png");
     background-repeat: repeat;
     box-shadow: 0 8px 32px 0 rgba( 0,0,0, 0.37 );
 }
 
-
-
+.carousel-inner {
+    height: 60vh;
+}
 
 @media screen and (max-width: 767px) {
     .parallax-area {
@@ -56,16 +60,16 @@ body {
     #bg-image-intro {
         padding-top: 10%;
     }
-
+    
+    .carousel-inner {
+        height: 100vh;
+        font-size: 1.95vh;
+    }
+    
     .carousel .jumbotron {
         height: 100vh;
     }
-}
 
-.carousel-inner .item {
-    height: 500px;
-    background-size: cover;
-    background-position: center center;
 }
 
 iframe {
@@ -116,7 +120,7 @@ h1, h2{
     background-color: whitesmoke;
 }
 
-.active {
+.nav-link.active {
     background: linear-gradient(217deg, #c00000, #d85300);
     background-size: 800% 800%;
     
