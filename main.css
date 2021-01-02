@@ -179,4 +179,21 @@ h1, h2{
     }
 }
 
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    background-image: none;
+    opacity: 1;
+}
 
+.carousel-control-prev:after{
+    content: '<';
+    font-size: 60px;
+    color: #d63a49;
+    opacity: 1;
+}
+
+.carousel-control-next:after {
+    content: '>';
+    font-size: 60px;
+    color: #d63a49;
+    opacity: 1;
+}
