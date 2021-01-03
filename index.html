@@ -21,7 +21,7 @@
     <body data-spy="scroll" data-target="#mainNav">
         <!-- Navbar -->
         <!-- Desktop -->
-        <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark" id="main-nav">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark" id="main-nav">
 
             <a class="navbar-brand" href="#">Home</a>
 
@@ -80,35 +80,41 @@
             </div>
         </div>
 
-        <div class="container-fluid section">
+        <div class="container-fluid section" id="section2">
 
-            <div class="row" id="section2">
+            <div class="row" >
 
                 <div class="col-md-4 column-3">
-                    <h2 class="header-text text-center">Not just any biography</h2>
-                    <p class=" left-justified">
-                        <span style="font-style: italic;">Symphony for the City of the Dead</span> 
-                        reads much like a narrative novel, enticing you into the exciting story of the complex web of events 
-                        during World War 2, the rise of the USSR, and the Siege of Leningrad.
-                    </p>
+                        <div class="container column-container">
+                            <h2 class="header-text text-center">Not just any biography</h2>
+                        <p class=" left-justified">
+                            <span style="font-style: italic;">Symphony for the City of the Dead</span> 
+                            reads much like a narrative novel, enticing you into the exciting story of the complex web of events 
+                            during World War 2, the rise of the USSR, and the Siege of Leningrad.
+                        </p>
+                    </div>
                 </div>
 
                 <div class="col-md-4 mid-column column-3">
-                    <h2 class="header-text text-center">Something for everyone</h2>
-                    <p class="left-justified">
-                        Whether you're a classical music connoisseur, a history buff, or just someone who is fascinated by the seemingly
-                        outlandish proposition that a <span style="font-style: bold italic;">piece of music</span> can change so much,
-                        you'll find something that grabs your interest.
-                    </p>
-                    <div class="container text-center"><a class="btn btn-custom" href="#audience" onclick="scrollToAnchor('audience')">Learn more</a></div>
+                    <div class="container column-container">
+                        <h2 class="header-text text-center">Something for everyone</h2>
+                        <p class="left-justified">
+                            Whether you're a classical music connoisseur, a history buff, or just someone who is fascinated by the seemingly
+                            outlandish proposition that a <span style="font-style: bold italic;">piece of music</span> can change so much,
+                            you'll find something that grabs your interest.
+                        </p>
+                        <div class="container text-center"><a class="btn btn-custom" href="#audience" onclick="scrollToAnchor('audience')">Learn more</a></div>
+                    </div>
                 </div>
 
                 <div class="col-md-4 column-3">
-                    <h2 class="header-text text-center">A new look</h2>
-                    <p class="left-justified">
-                        While there is a breadth of literature on World War II and the USSR, chances are, you wouldn't expect
-                        to read it from the the point of view of a civilian, much less one of the most celebrated classical composers.
-                    </p>
+                    <div class="container column-container">
+                        <h2 class="header-text text-center">A new look</h2>
+                        <p class="left-justified">
+                            While there is a breadth of literature on World War II and the USSR, chances are, you wouldn't expect
+                            to read it from the the point of view of a civilian, much less one of the most celebrated classical composers.
+                        </p>
+                    </div>
                 </div>
 
             </div>
@@ -347,23 +353,28 @@
 
         </div>
 
-        <div class ="container-fluid section" id="message">
+        <div class ="container-fluid section parallax-3" id="message">
 
             <div class="row">
                 <div class ="col-lg-12">
-                    <div class="text-center">
-                        <h2>What's it <i>really</i> about?</h2>
-                    </div>
                     <div class="container">
-                        <p>
-                            As a nonfiction book, clearly one of the purposes is to inform. 
-                            Obviously, one of the messages is the real events 
-                            that transpired within the book -- the actual 
-                            description of the horrors people experienced during the Siege of Leningrad and the rise of the USSR.
-                        </p>
-                        <p>
-                            However, we already know that Anderson has a deeper purpose -- and a <i>deeper message</i> than what meets the eye.
-                        </p>
+                    <div class="jumbotron float-md-center">
+                        <div class="text-center">
+                            <h2>What's it <i>really</i> about?</h2>
+                        </div>
+                        <div class="container">
+                            <p>
+                                As a nonfiction book, clearly one of the purposes is to inform. 
+                                Obviously, one of the messages is the real events 
+                                that transpired within the book -- the actual 
+                                description of the horrors people experienced during the Siege of Leningrad and the rise of the USSR.
+                            </p>
+                            <p>
+                                However, we already know that Anderson has a deeper purpose -- and a <i>deeper message</i> than what meets the eye.
+                            </p>
+                        </div>
+                    </div>
+
                         <div class="card">
                             <div class="card-header">
                                 <h3>Human emotion is the most impactful of all motivations.</h3>
@@ -410,6 +421,7 @@
                                 <p>Given how Anderson aims to encourage positive change and discourage injustice, especially from one of his target audiences, young adults, 
                                     it makes sense to suggest this message, because if Anderson appeals to an audience who isn't jaded over injustice yet, he must encourage them to believe in their power to make a difference. </p>
                             </div>
+                        </div>
                         </div>
                     </div>
                 </div>
