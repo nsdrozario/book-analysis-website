@@ -12,12 +12,6 @@ to
 
     $('#' + aid)
 
-Also adjusted the scroll position by taking the top coordinate of the target anchor and subtracting it by two times the height of the main-nav element by changing
-
-aTag.offset().top
-
-to
-aTag.offset().top - ($("#main-nav").height() * 2)
 
 Under CC-BY-SA 3.0 License (https://creativecommons.org/licenses/by-sa/3.0/)
 */
