@@ -12,6 +12,14 @@ body {
     padding: 10px;
 }
 
+a {
+    color: rgb(0, 195, 255);
+}
+
+a:hover {
+    color: rgb(98, 242, 255);
+}
+
 /* glassmorphism.com */
 .column-container {
     padding: 20px;
