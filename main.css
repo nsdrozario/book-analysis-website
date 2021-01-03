@@ -1,5 +1,5 @@
 /* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
 
 /* Theme */
 body {
@@ -86,6 +86,12 @@ img {
     background-image: url("paper_texture.png");
     background-repeat: repeat;
     box-shadow: 0 8px 32px 0 rgba( 0,0,0, 0.37 );
+    font-family: 'Noto Serif', serif;
+}
+
+
+blockquote {
+    font-family: 'Noto Serif', serif;
 }
 
 .carousel-inner {
