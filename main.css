@@ -85,7 +85,8 @@ img {
     color: #1f1f1f;
     background-image: url("paper_texture.png");
     background-repeat: repeat;
-    box-shadow: 0 8px 32px 0 rgba( 0,0,0, 0.37 );
+    border: 3px solid rgba(0,0,0,0.1);
+    box-shadow: 0 8px 27px 0 rgba( 0,0,0, 0.5);
     font-family: 'Noto Serif', serif;
 }
 
